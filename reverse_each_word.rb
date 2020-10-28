@@ -9,6 +9,7 @@
 #.join emthod with adding " " between each elemetn
 #returns the same sentence with each word reversed in place--trailing punctatin becomes the beginning of it's word
 #return as a string
+require pry
 
 reverse_each_word(sentence)
   org_array = sentence.to_a(" ")
