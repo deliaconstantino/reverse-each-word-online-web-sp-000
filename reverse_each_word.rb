@@ -13,7 +13,7 @@
 sentence = "Please don't, eat my dear aunt Sally!"
 
 def reverse_each_word(sentence)
-  org_array = sentence.to_a(" ")
+  org_array = sentence.split(" ")
   pushed_array = []
     org_array.each do |org_word|
       backword_word = org_word.reverse
