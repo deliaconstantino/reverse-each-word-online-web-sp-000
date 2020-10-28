@@ -21,6 +21,7 @@ reverse_each_word(sentence)
   puts pushed_array.join(" ")
   binding.pry
 end
+end
 
 
 
