@@ -11,7 +11,7 @@
 #return as a string
 
 
-sentence = "Please don't, eat my dear aunt Sally!"
+sentnce = "Please don't, eat my dear aunt Sally!"
 
 def reverse_each_word(sentence)
   org_array = sentence.split(" ")
