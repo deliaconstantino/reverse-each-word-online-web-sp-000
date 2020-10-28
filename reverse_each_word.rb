@@ -20,8 +20,8 @@ reverse_each_word(sentence)
   pushed_array.join(" ")
 end
 
-  
-    
-  
+
+
+
 
 end
