@@ -9,7 +9,7 @@
 #.join emthod with adding " " between each elemetn
 #returns the same sentence with each word reversed in place--trailing punctatin becomes the beginning of it's word
 #return as a string
-require 'pry'
+
 
 sentence = "Please don't, eat my dear aunt Sally!"
 
@@ -20,7 +20,5 @@ def reverse_each_word(sentence)
       backword_word = org_word.reverse
       pushed_array << backword_word
     end
-    binding.pry
   puts pushed_array.join(" ")
-  binding.pry
 end
