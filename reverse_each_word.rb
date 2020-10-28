@@ -9,9 +9,9 @@
 #.join emthod with adding " " between each elemetn
 #returns the same sentence with each word reversed in place--trailing punctatin becomes the beginning of it's word
 #return as a string
-require pry
+require 'pry'
 
-reverse_each_word(sentence)
+def reverse_each_word(sentence)
   org_array = sentence.to_a(" ")
   pushed_array = []
     org_array.each do |org_word|
