@@ -10,7 +10,18 @@
 #returns the same sentence with each word reversed in place--trailing punctatin becomes the beginning of it's word
 #return as a string
 
-reverse_each_word(string)
-  string.to_a(" ")
+reverse_each_word(sentence)
+  org_array = sentence.to_a(" ")
+  pushed_array = []
+    org_array.each do |org_word|
+      backword_word = org_word.reverse
+      pushed_array << backword_word
+    end
+  pushed_array.join(" ")
+end
+
+  
+    
+  
 
 end
