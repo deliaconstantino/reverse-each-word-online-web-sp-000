@@ -22,4 +22,5 @@ def reverse_each_word(sentence)
     end
     binding.pry
   puts pushed_array.join(" ")
+  binding.pry
 end
