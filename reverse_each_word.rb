@@ -18,7 +18,8 @@ reverse_each_word(sentence)
       backword_word = org_word.reverse
       pushed_array << backword_word
     end
-  pushed_array.join(" ")
+  puts pushed_array.join(" ")
+  binding.pry
 end
 
 
