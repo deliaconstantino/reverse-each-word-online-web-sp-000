@@ -17,5 +17,5 @@ def reverse_each_word(sentence)
       backword_word = org_word.reverse
       pushed_array << backword_word
     end
-  puts pushed_array.join(" ")
+  pushed_array.join(" ")
 end
